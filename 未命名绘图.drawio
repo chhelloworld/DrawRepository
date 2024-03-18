@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T08:02:50.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="v47hi1gSvlgOgfGQD-ml" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T08:06:07.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TH96ajzvz6NmyKDR9Biw" version="24.0.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1816" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-10" y="70" width="820" height="830" as="geometry" />
         </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-34" value="服务器2: 阿里云&lt;div&gt;123.56.22.129&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="424" y="400" width="340.5" height="180" as="geometry" />
+          <mxGeometry x="424" y="400" width="336" height="180" as="geometry" />
         </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-31" value="服务器1: 阿里云&lt;div&gt;8.130.46.169&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="36" y="400" width="340.5" height="180" as="geometry" />
@@ -57,8 +57,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-57" value="redis-slave" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-37">
+          <mxGeometry x="-0.1752" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.715;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="q6-PjsSTL5TGRvUFHwgN-23" target="q6-PjsSTL5TGRvUFHwgN-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-58" value="redis-slave" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-38">
+          <mxGeometry x="0.0338" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-23" value="Redis Master&lt;div&gt;(Contanier)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="219.5" y="276" width="140.5" height="36" as="geometry" />
@@ -101,6 +111,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-60" value="编译服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-40">
+          <mxGeometry x="0.1328" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-50" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="q6-PjsSTL5TGRvUFHwgN-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="250" as="sourcePoint" />
@@ -108,6 +123,11 @@
             <Array as="points">
               <mxPoint x="400" y="317" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-63" value="发起编译请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-50">
+          <mxGeometry x="0.5204" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.3;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.929;exitY=0.065;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
@@ -119,6 +139,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-61" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-52">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-53" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.122;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" target="q6-PjsSTL5TGRvUFHwgN-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="170" as="sourcePoint" />
@@ -126,6 +151,22 @@
             <Array as="points">
               <mxPoint x="630" y="170" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-62" value="发起编译请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-53">
+          <mxGeometry x="-0.5164" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.869;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="q6-PjsSTL5TGRvUFHwgN-21" target="q6-PjsSTL5TGRvUFHwgN-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-56" value="缓存层" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6-PjsSTL5TGRvUFHwgN-54">
+          <mxGeometry x="-0.5262" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
