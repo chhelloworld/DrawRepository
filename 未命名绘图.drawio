@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T08:08:01.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gSohGZZlD5V8AyVtScUl" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T08:08:49.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oYnBd10ijGVLhyUxS2gv" version="24.0.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1816" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-31" value="&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;服务器1: 阿里云&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;8.130.46.169&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="34" y="620" width="340.5" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="q6-PjsSTL5TGRvUFHwgN-4" value="服务器1: 阿里云&lt;div&gt;8.130.46.169&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-4" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0080&quot;&gt;服务器1: 阿里云&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0080&quot;&gt;8.130.46.169&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="36" y="40" width="114" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q6-PjsSTL5TGRvUFHwgN-15" value="服务器2: 阿里云&lt;div&gt;123.56.22.129&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-15" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;服务器2: 阿里云&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;123.56.22.129&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="339" y="40" width="114" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q6-PjsSTL5TGRvUFHwgN-16" value="服务器3: 腾讯云&lt;div&gt;124.223.48.192&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="q6-PjsSTL5TGRvUFHwgN-16" value="&lt;font color=&quot;#00f500&quot;&gt;服务器3: 腾讯云&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#00f500&quot;&gt;124.223.48.192&lt;/font&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="646" y="40" width="114" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q6-PjsSTL5TGRvUFHwgN-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="q6-PjsSTL5TGRvUFHwgN-4" target="q6-PjsSTL5TGRvUFHwgN-15">
