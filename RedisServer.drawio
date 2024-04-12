@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T08:10:08.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="CzrP2xwsktcDkaVfbWiM" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T08:17:13.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BotGWkI2Vso9p2Fdvyo2" version="24.2.3" type="github">
   <diagram name="第 1 页" id="mdmKTRS3rtlkqnLzH0tU">
-    <mxGraphModel dx="4700" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4168" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="pYK7ebVQ6ZhQr3KT8jW3-15" value="&lt;font color=&quot;#ff0019&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;为什么使用skiplist来实现zset ?&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4687" y="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYK7ebVQ6ZhQr3KT8jW3-16" value="&lt;p style=&quot;overflow-wrap: break-word; margin: 0px; padding: 0px; white-space-collapse: preserve; word-break: break-all; color: rgb(63, 63, 63); font-family: &amp;quot;Pingfang SC&amp;quot;, &amp;quot;helvetica neuepingfang SC&amp;quot;, &amp;quot;helvetica neue&amp;quot;, arial, &amp;quot;hiragino sans gb&amp;quot;, &amp;quot;microsoft yahei ui&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, simsun, sans-serif; background-color: rgb(255, 255, 255); font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1）内存占用更少，自定义参数化决定使用多少内存&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;overflow-wrap: break-word; margin: 0px; padding: 0px; white-space-collapse: preserve; word-break: break-all; color: rgb(63, 63, 63); font-family: &amp;quot;Pingfang SC&amp;quot;, &amp;quot;helvetica neuepingfang SC&amp;quot;, &amp;quot;helvetica neue&amp;quot;, arial, &amp;quot;hiragino sans gb&amp;quot;, &amp;quot;microsoft yahei ui&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, simsun, sans-serif; background-color: rgb(255, 255, 255); font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2）有序集合很多时候用zrange 或者zrevrange 。性能至少不比平衡树差&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;overflow-wrap: break-word; margin: 0px; padding: 0px; white-space-collapse: preserve; word-break: break-all; color: rgb(63, 63, 63); font-family: &amp;quot;Pingfang SC&amp;quot;, &amp;quot;helvetica neuepingfang SC&amp;quot;, &amp;quot;helvetica neue&amp;quot;, arial, &amp;quot;hiragino sans gb&amp;quot;, &amp;quot;microsoft yahei ui&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, simsun, sans-serif; background-color: rgb(255, 255, 255); font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3）简单更容易实现和维护&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4397" y="430" width="600" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
